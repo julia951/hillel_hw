@@ -11,7 +11,7 @@ public class CompareNames {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter four numbers:");
+        System.out.println("Enter two names:");
         String firstName = scanner.nextLine();
         String secondName = scanner.nextLine();
         printComparisonNameResult(firstName, secondName);

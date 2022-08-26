@@ -9,7 +9,7 @@ public class SortOfThree {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter four numbers:");
+        System.out.println("Enter three numbers:");
         int one = scanner.nextInt();
         int two = scanner.nextInt();
         int three = scanner.nextInt();
