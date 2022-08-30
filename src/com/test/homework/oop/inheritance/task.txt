@@ -1,0 +1,13 @@
+Please put all the classes into different packages with meaningful name
+
+1. Horse and Pegas
+    Create 2 classes: Horse and Pegas
+    Inherit Pegas from Horse
+
+2. Domestic animals
+    Create 3 classes: Pet, Cat and Dog
+    Inherit Cat and Dog from Pet
+
+3. Village
+    Create 6 classes: Animal, Cow, Pig, Sheep, Bull, Goat
+    Inherit Cow, Pig, Sheep, Bull and Goat from Animal
