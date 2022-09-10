@@ -20,9 +20,16 @@ public class StringTask {
         //split the string via space " " and print each word from the new line
 
         //create the method that takes String and char parameters and return the quantity of letters that exist in that string
+
+        //create the greeting method that takes name and age and print the string - "Hey, my name is Andrii, and I'm 41 years old"
+        // (Use String.format function)
     }
 
     public static int getCharQuantityInTheString(String s, char c) {
         return 0;
+    }
+
+    public static void greeting(String name, int age) {
+
     }
 }
