@@ -1,5 +1,7 @@
 package com.test.homework.array;
 
+import java.util.Scanner;
+
 public class TwoArrays {
     /*
     1. Create an Array of Strings, size 10
@@ -11,5 +13,27 @@ public class TwoArrays {
      */
     public static void main(String[] args) {
         //implement me
+
+        Scanner sc = new Scanner(System.in);
+
+        String[] array = new String[10];
+
+        System.out.println("Enter the elements of the array: ");
+
+        for (int i = 0; i < 10; i++) {
+            array[i] = sc.nextLine();
+        }
+
+        int[] arrayNumber = new int[10];
+
+
+        for (int i = 0; i < array.length; i++) {
+                arrayNumber[i] = array[i].length();
+        }
+
+        System.out.println("the new array");
+        for (int i = 0; i < 10; i++) {
+            System.out.println(arrayNumber[i] + " ");
+        }
     }
 }

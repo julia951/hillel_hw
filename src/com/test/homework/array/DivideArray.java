@@ -1,5 +1,7 @@
 package com.test.homework.array;
 
+import java.util.Scanner;
+
 public class DivideArray {
     /*
     1. Create an int Array, size 20
@@ -11,5 +13,36 @@ public class DivideArray {
 
     public static void main(String[] args) {
         // implement me
+
+
+        Scanner sc=new Scanner(System.in);
+
+        int[] array = new int[20];
+
+        System.out.println("Enter the elements of the array: ");
+
+        for(int i=0; i<20; i++) {
+            array[i]=sc.nextInt();
+        }
+
+        int[] firstArray = new int[10];
+        int[] secondArray = new int[10];
+
+        for(int i=0; i<10; i++) {
+            firstArray[i]=array[i];
+        }
+        int j=0;
+
+        for(int l=11; l<20; l++) {
+            //int j=0;
+                secondArray[j] = array[l];
+                j++;
+        }
+
+        System.out.println("The second array: ");
+
+        for(int i=0; i<10; i++) {
+            System.out.println(secondArray[i]+" ");
+        }
     }
 }

@@ -1,5 +1,7 @@
 package com.test.homework.array;
 
+import java.util.Scanner;
+
 public class MaxOf20 {
     /*
     1. In the method initializeArray():
@@ -16,11 +18,29 @@ public class MaxOf20 {
 
     private static int[] initializeArray() {
         // implement me
-        return new int[0];
+
+        Scanner sc = new Scanner(System.in);
+
+        int[] array = new int[20];
+
+        System.out.println("Enter the elements of the array: ");
+
+        for(int i=0; i<20; i++) {
+            array[i]=sc.nextInt();
+        }
+
+        return array;
     }
 
     private static int max(int[] array) {
         // implement me
-        return 0;
+
+        int max = array[0];
+        for(int i = 1 ; i < array.length;i++) {
+            if(max < array[i]) {
+                max = array[i];
+            }
+        }
+        return max;
     }
 }
